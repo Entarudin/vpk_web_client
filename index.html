@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/slider.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>Портфолио</strong></a>
+                <button class="dark-mode-btn">
+                    <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#projects"
+                            class="nav-list__link nav-list__link--active">Проекты</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Навыки</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__title">
+                <strong>Привет, меня зовут <em>Максим Рязанов</em></strong><br>
+                и я backend developer
+            </h1>
+            <div class="header__text">
+                <p>Ниже можешь ознакомиться с мои pet проектами</p>
+            </div>
+            <a href="https://github.com/Entarudin" class="btn">GitHub</a>
+        </div>
+    </header>
+    <main class="section">
+        <div class="container">
+            <h2 class="title-1" id="projects">Проекты</h2>
+            <div class="slider">
+                <div class="slide" data-background="./img/bg-1.jpg">
+                </div>
+                <p class="caption caption-0">
+                    Веб-платформа для взаимодействия студентов и представителей IT-компаний
+                    <br>
+                    <small><a href="https://github.com/Entarudin/fidme-clon-headhunter">Посмотреть</a></small>
+                </p>
+                <div class="slide" data-background="./img/bg-2.jpg">
+                </div>
+                <p class="caption caption-1">
+                    Экспертная система для абитуриентов, поступающих в магистратуру ИКТИБ
+                    <br>
+                    <small><a href="https://github.com/Entarudin/expert_system_for_magistrants">Посмотреть</a></small>
+                </p>
+                <div class="slide" data-background="./img/bg-3.webp">
+                </div>
+                <p class="caption caption-2">
+                    API для мониторина безопасности кибер-физических устройств
+                    <br>
+                    <small><a href="https://github.com/Entarudin/cyber_factory">Посмотреть</a></small>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://vk.com/mph0en1x"><img src="./img/icons/vk.svg"
+                                alt="Link"></a></li>
+                    <li class="social__item"><a href="https://github.com/Entarudin"><img src="./img/icons/gitHub.svg"
+                                alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
